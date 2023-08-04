@@ -6,11 +6,11 @@ The package "minimist" is added to parse simple arguments
 
 ### Client
 
-
+In client directory, you can run `node index --name "your name"` to receive the gift. You may also try to corrupt the request data by adding `--corrupt` parameter, eg: `node index --name "fake name" --corrupt`. This method will try to query a non-existent name and pick a random index as if the fake name is at this index, which will not work (this method may be improved at a later date). 
 
 ## Default Instructions
 
-To get started with the repository, clone it and then run `npm install` in the top-level directory to install the depedencies.
+To get started with the repository, clone it and then run `npm install` in the top-level directory to install the dependencies.
 
 There are three folders in this repository:
 
